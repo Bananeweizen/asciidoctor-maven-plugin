@@ -34,7 +34,7 @@ import java.io.Reader;
 @Component(role = Parser.class, hint = AsciidoctorConverterDoxiaParser.ROLE_HINT)
 public class AsciidoctorConverterDoxiaParser extends AbstractTextParser {
 
-    private Logger logger = LoggerFactory.getLogger(AsciidoctorDoxiaParser.class);
+    private final Logger logger = LoggerFactory.getLogger(AsciidoctorConverterDoxiaParser.class);
 
     @Inject
     protected Provider<MavenProject> mavenProjectProvider;
