@@ -17,7 +17,7 @@
     <description>Asciidoctor Doxia Module based on Asciidoctor AST processing (for Maven Site integration)</description>
 
     <properties>
-        <doxia.version>1.11.1</doxia.version>
+        <doxia.version>2.0.0-M6</doxia.version>
         <maven.coveralls.plugin.version>4.3.0</maven.coveralls.plugin.version>
         <plexus.component.metadata.version>2.1.1</plexus.component.metadata.version>
     </properties>
